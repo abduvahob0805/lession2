@@ -1,0 +1,173 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+header img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a{
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.btn{
+    padding: 14px 14px;
+    background-color: #4CAF4F;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+}
+
+.hero{
+    background-color: #F5F7FA;
+    padding: 100px 0;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+
+}
+
+.hero-img img{
+    width: 300px;
+}
+
+.hero h1{
+    font-size: 50px;
+    width: 519px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+    margin-bottom: 20px;
+}
+
+span{
+    color: #4CAF4F;
+}
+
+.hero-btn{
+    padding: 14px 18px;
+    border-radius: 7px;
+    background-color: #4CAF4F;
+    border: none;
+    color: white;
+}
+
+.logos img{
+    width: 45px;
+}
+
+.logos{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.clients{
+    padding: 80px 0;
+}
+
+.clients .container h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clients .container p{
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.card h3{
+    font-size: 26px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    margin-left: 42px;
+}
+
+.card p{
+    font-size: 16px;
+    width: 240px;
+    display: flex;
+    text-align: center;
+}
+
+.card img{
+    width: 60px;
+}
+
+.card{
+    width: 280px;
+    height: 220px;
+    text-align: center;
+    border-bottom: 3px solid rgb(216, 216, 216);
+    padding: 20px;
+}
+
+.card-ota{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.entire h2{
+    font-size: 32px;
+    text-align: center;
+    width: 440px;
+    margin-left: 400px;
+    margin-bottom: 60px;
+}
+
+.entire{
+    padding: 100px 0;
+}
+
+.hero-end .container{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+
+}
+
+.hero-end{
+    padding: 100px 0;
+}
+
+.hero-end h1{
+    margin-bottom: 30px;
+}
+
+.hero-end p{
+    width: 580px;
+    margin-bottom: 30px;
+}
+
